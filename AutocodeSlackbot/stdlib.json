@@ -1,0 +1,86 @@
+{
+  "name": "szzzhang/slack-airtable-reminders",
+  "timeout": 10000,
+  "connector": false,
+  "events": {
+    "functions/events/slack/app_home_opened.js": {
+      "name": "slack.app_home_opened"
+    },
+    "functions/events/slack/member_joined_channel.js": {
+      "name": "slack.member_joined_channel"
+    },
+    "functions/events/slack/message_action/clickme123.js": {
+      "name": "slack.message_action",
+      "subtype": {
+        "callback_id": "clickme123"
+      }
+    },
+    "functions/events/slack/interactive_message/wopr_game.js": {
+      "name": "slack.interactive_message",
+      "subtype": {
+        "callback_id": "wopr_game"
+      }
+    },
+    "functions/events/slack/interactive_message/q2.js": {
+      "name": "slack.interactive_message",
+      "subtype": {
+        "callback_id": "q2"
+      }
+    },
+    "functions/events/slack/interactive_message/q3.js": {
+      "name": "slack.interactive_message",
+      "subtype": {
+        "callback_id": "q3"
+      }
+    },
+    "functions/events/slack/interactive_message/q4.js": {
+      "name": "slack.interactive_message",
+      "subtype": {
+        "callback_id": "q4"
+      }
+    },
+    "functions/events/slack/interactive_message/q5.js": {
+      "name": "slack.interactive_message",
+      "subtype": {
+        "callback_id": "q5"
+      }
+    },
+    "functions/events/slack/interactive_message/q6.js": {
+      "name": "slack.interactive_message",
+      "subtype": {
+        "callback_id": "q6"
+      }
+    },
+    "functions/events/slack/interactive_message/q7.js": {
+      "name": "slack.interactive_message",
+      "subtype": {
+        "callback_id": "q7"
+      }
+    },
+    "functions/events/slack/interactive_message/q8.js": {
+      "name": "slack.interactive_message",
+      "subtype": {
+        "callback_id": "q8"
+      }
+    },
+    "functions/events/slack/interactive_message/q9.js": {
+      "name": "slack.interactive_message",
+      "subtype": {
+        "callback_id": "q9"
+      }
+    },
+    "functions/events/slack/interactive_message/q10.js": {
+      "name": "slack.interactive_message",
+      "subtype": {
+        "callback_id": "q10"
+      }
+    },
+    "functions/events/slack/interactive_message/submit_response.js": {
+      "name": "slack.interactive_message",
+      "subtype": {
+        "callback_id": "submit_response"
+      }
+    }
+  },
+  "env": []
+}

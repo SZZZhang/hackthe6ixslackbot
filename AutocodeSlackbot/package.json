@@ -1,0 +1,8 @@
+{
+  "name": "slack-airtable-reminders",
+  "author": "szzzhang",
+  "publish": false,
+  "dependencies": {
+    "lib": "^4.3.0"
+  }
+}
